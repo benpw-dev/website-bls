@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>B.Lombardi & Sons Construction</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+      background-color: #fff;
+    }
+
+    .navbar {
+      background: linear-gradient(to right, #FFD100 20%, #fff 70%);
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-container img {
+      height: 100px;
+      width: auto;
+    }
+
+    .nav-links a {
+      margin-left: 30px;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+
+    .nav-links a:hover {
+      border-bottom: 2px solid #FFD100;
+    }
+
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background-color: #f8f8f8;
+    }
+
+    .hero h1 {
+      font-size: 3.5em;
+      color: #222;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav-links {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .nav-links a {
+        margin-left: 0;
+      }
+
+      .logo-container img {
+        height: 80px;
+      }
+
+      .hero h1 {
+        font-size: 2.2em;
+      }
+
+      .hero p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo-container">
+      <img src="bls-logo.png" alt="B.Lombardi & Sons Logo">
+    </div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Reviews</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <section class="hero">
+    <h1>Example Text</h1>
+    <p>Established 1977</p>
+  </section>
+
+</body>
+</html>
